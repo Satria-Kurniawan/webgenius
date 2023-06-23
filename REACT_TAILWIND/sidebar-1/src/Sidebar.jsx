@@ -48,7 +48,7 @@ export default function Sidebar() {
                 return (
                   <li
                     key={i}
-                    className="font-semibold text-xl flex gap-x-4 cursor-pointer"
+                    className="font-semibold text-xl flex gap-x-4 cursor-pointer hover:translate-x-3 duration-300"
                   >
                     {menu.icon}
                     <span className={!open && "hidden"}>{menu.name}</span>
